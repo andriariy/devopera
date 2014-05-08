@@ -4,12 +4,13 @@ We've rebuilt [Dev.Opera](http://dev.opera.com/) as a static site, powered by Je
 
 ## Environment setup
 
-1. Install Jekyll, Sass and all needed gems by running `sudo gem install jekyll kramdown stringex sass` in Terminal.
-2. Download and install [Node.js](http://nodejs.org) with the default installer options.
-3. Clone the project by running `git clone git@github.com:operasoftware/devopera.git`.
-4. Run `npm install` inside the `devopera` folder.
-5. Run `npm install grunt-cli -g` to install Grunt globally.
-6. Run `grunt build` to build Dev.Opera inside the `_site` folder.
+1. Install Jekyll, Sass and all needed gems by running `sudo gem install jekyll redcarpet stringex sass` in Terminal.
+2. Install Pygments by running `sudo pip install pygments`.
+3. Download and install [Node.js](http://nodejs.org) with the default installer options.
+4. Clone the project by running `git clone git@github.com:operasoftware/devopera.git`.
+5. Run `npm install` inside the `devopera` folder.
+6. Run `npm install grunt-cli -g` to install Grunt globally.
+7. Run `grunt build` to build Dev.Opera inside the `_site` folder.
 
 Please install [EditorConfig](http://editorconfig.org/#download) plugin for your editor to keep code style declared in the [.editorconfig](.editorconfig) file.
 
